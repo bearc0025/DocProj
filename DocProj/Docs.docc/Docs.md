@@ -1,4 +1,4 @@
-# ``DocProj``
+# DocProj
 
 Here we are making docs.
 
