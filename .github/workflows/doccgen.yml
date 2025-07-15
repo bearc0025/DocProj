@@ -30,7 +30,7 @@ jobs:
           xcodebuild docbuild \
             -scheme DocProj \
             -derivedDataPath ./DerivedData \
-            -destination 'generic/platform=iOS' \
+            -destination 'generic/platform=iOS Simulator' \
             -allowProvisioningUpdates \
             -skipPackagePluginValidation
           
