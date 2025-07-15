@@ -38,13 +38,13 @@ jobs:
 
       - name: Build DocC
         run: |
-          xcodebuild clean docbuild -scheme DocProj \
+xcodebuild clean docbuild -scheme DocProj \
             -derivedDataPath /tmp/docbuild \
             -destination 'generic/platform=iOS Simulator' \
             -skipPackagePluginValidation \
             -allowProvisioningUpdates;
 
-          doccarchive_path=$(find ./DerivedData -name "*.doccarchive" | head -n 1)
+          doccarchive_path=$(find ./tmp/docbuild -name "*.doccarchive" | head -n 1)
 
           echo "Found doccarchive at $doccarchive_path"
 
