@@ -51,7 +51,7 @@ jobs:
 
           xcrun docc process-archive transform-for-static-hosting \
             $doccarchive_path \
-            --hosting-base-path $schemeName \
+            --hosting-base-path sometestpath \
             --output-path doccDocs;
 
           echo "<script>window.location.href += \"/documentation/docproj\"</script>" > $schemeName/index.html
