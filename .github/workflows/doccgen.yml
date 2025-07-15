@@ -53,7 +53,7 @@ jobs:
             --hosting-base-path DocProj \
             --output-path DocProj;
 
-          echo "<script>window.location.href += \"/documentation/docproj\"</script>" > docs/index.html
+          echo "<script>window.location.href += \"/documentation/docproj\"</script>" > DocProj/index.html
 
       - name: Prep pages
         uses: actions/configure-pages@v5
