@@ -38,7 +38,8 @@ jobs:
 
       - name: Build DocC
         run: |
-          xcodebuild clean docbuild -scheme DocProj \
+          schemeName="DocProj"
+          xcodebuild clean docbuild -scheme $schemeName \
             -derivedDataPath /tmp/docbuild \
             -destination 'generic/platform=iOS Simulator' \
             -skipPackagePluginValidation \
@@ -50,10 +51,10 @@ jobs:
 
           xcrun docc process-archive transform-for-static-hosting \
             $doccarchive_path \
-            --hosting-base-path DocProj \
-            --output-path DocProj;
+            --hosting-base-path $schemeName \
+            --output-path doccDocs;
 
-          echo "<script>window.location.href += \"/documentation/docproj\"</script>" > DocProj/index.html
+          echo "<script>window.location.href += \"/documentation/docproj\"</script>" > $schemeName/index.html
 
       - name: Prep pages
         uses: actions/configure-pages@v5
@@ -62,7 +63,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # Upload docs directory
-          path: 'DocProj'
+          path: 'doccDocs'
 
       - name: Deploy to GitHub Pages
         id: deployment
