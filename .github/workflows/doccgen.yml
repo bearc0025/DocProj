@@ -44,7 +44,7 @@ jobs:
             -skipPackagePluginValidation \
             -allowProvisioningUpdates;
 
-          doccarchive_path=$(find ./tmp/docbuild -name "*.doccarchive" | head -n 1)
+          doccarchive_path=$(find /tmp/docbuild -name "*.doccarchive" | head -n 1)
 
           echo "Found doccarchive at $doccarchive_path"
 
