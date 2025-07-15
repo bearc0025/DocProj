@@ -38,7 +38,7 @@ jobs:
 
       - name: Build DocC
         run: |
-xcodebuild clean docbuild -scheme DocProj \
+          xcodebuild clean docbuild -scheme DocProj \
             -derivedDataPath /tmp/docbuild \
             -destination 'generic/platform=iOS Simulator' \
             -skipPackagePluginValidation \
