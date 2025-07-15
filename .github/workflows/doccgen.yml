@@ -44,7 +44,7 @@ jobs:
             -skipPackagePluginValidation \
             -allowProvisioningUpdates;
           $(xcrun --find docc) process-archive \
-            transform-for-static-hosting /tmp/docbuild/Build/Products/Debug-iphoneos/DocProj.doccarchive \
+            transform-for-static-hosting /tmp/docbuild/Build/Products/Debug-iphoneosimulator/DocProj.doccarchive \
             --hosting-base-path DocProj \
             --output-path docs;
           echo "<script>window.location.href += \"/documentation/realityui\"</script>" > docs/index.html
