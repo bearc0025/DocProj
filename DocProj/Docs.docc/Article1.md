@@ -8,6 +8,9 @@ This is going to discuss things.
 
 Overall, I like them.
 
+- <doc:Docs>
+- <doc:ContentView>
+
 ### Section header
 
 This section is the first.

@@ -11,3 +11,5 @@ First we'll see how this goes.
 ### Group 1
 
 - <doc:Article1>
+
+- <doc:ContentView>
