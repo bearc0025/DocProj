@@ -1,0 +1,38 @@
+{
+  "" : {
+    "diagnostics" : "/Users/bcahill/Desktop/DocProj/DerivedData/Build/Intermediates.noindex/DocProj.build/Debug-iphoneos/DocProj.build/Objects-normal/arm64/DocProj-master.dia",
+    "emit-module-dependencies" : "/Users/bcahill/Desktop/DocProj/DerivedData/Build/Intermediates.noindex/DocProj.build/Debug-iphoneos/DocProj.build/Objects-normal/arm64/DocProj-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/bcahill/Desktop/DocProj/DerivedData/Build/Intermediates.noindex/DocProj.build/Debug-iphoneos/DocProj.build/Objects-normal/arm64/DocProj-master-emit-module.dia",
+    "swift-dependencies" : "/Users/bcahill/Desktop/DocProj/DerivedData/Build/Intermediates.noindex/DocProj.build/Debug-iphoneos/DocProj.build/Objects-normal/arm64/DocProj-master.swiftdeps"
+  },
+  "/Users/bcahill/Desktop/DocProj/DerivedData/Build/Intermediates.noindex/DocProj.build/Debug-iphoneos/DocProj.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/bcahill/Desktop/DocProj/DerivedData/Build/Intermediates.noindex/DocProj.build/Debug-iphoneos/DocProj.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/bcahill/Desktop/DocProj/DerivedData/Build/Intermediates.noindex/DocProj.build/Debug-iphoneos/DocProj.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/bcahill/Desktop/DocProj/DerivedData/Build/Intermediates.noindex/DocProj.build/Debug-iphoneos/DocProj.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/DocProj.build/Debug-iphoneos/DocProj.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/bcahill/Desktop/DocProj/DerivedData/Build/Intermediates.noindex/DocProj.build/Debug-iphoneos/DocProj.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/bcahill/Desktop/DocProj/DerivedData/Build/Intermediates.noindex/DocProj.build/Debug-iphoneos/DocProj.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/bcahill/Desktop/DocProj/DerivedData/Build/Intermediates.noindex/DocProj.build/Debug-iphoneos/DocProj.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/bcahill/Desktop/DocProj/DerivedData/Build/Intermediates.noindex/DocProj.build/Debug-iphoneos/DocProj.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
+  },
+  "/Users/bcahill/Desktop/DocProj/DocProj/ContentView.swift" : {
+    "const-values" : "/Users/bcahill/Desktop/DocProj/DerivedData/Build/Intermediates.noindex/DocProj.build/Debug-iphoneos/DocProj.build/Objects-normal/arm64/ContentView.swiftconstvalues",
+    "dependencies" : "/Users/bcahill/Desktop/DocProj/DerivedData/Build/Intermediates.noindex/DocProj.build/Debug-iphoneos/DocProj.build/Objects-normal/arm64/ContentView.d",
+    "diagnostics" : "/Users/bcahill/Desktop/DocProj/DerivedData/Build/Intermediates.noindex/DocProj.build/Debug-iphoneos/DocProj.build/Objects-normal/arm64/ContentView.dia",
+    "index-unit-output-path" : "/DocProj.build/Debug-iphoneos/DocProj.build/Objects-normal/arm64/ContentView.o",
+    "llvm-bc" : "/Users/bcahill/Desktop/DocProj/DerivedData/Build/Intermediates.noindex/DocProj.build/Debug-iphoneos/DocProj.build/Objects-normal/arm64/ContentView.bc",
+    "object" : "/Users/bcahill/Desktop/DocProj/DerivedData/Build/Intermediates.noindex/DocProj.build/Debug-iphoneos/DocProj.build/Objects-normal/arm64/ContentView.o",
+    "swift-dependencies" : "/Users/bcahill/Desktop/DocProj/DerivedData/Build/Intermediates.noindex/DocProj.build/Debug-iphoneos/DocProj.build/Objects-normal/arm64/ContentView.swiftdeps",
+    "swiftmodule" : "/Users/bcahill/Desktop/DocProj/DerivedData/Build/Intermediates.noindex/DocProj.build/Debug-iphoneos/DocProj.build/Objects-normal/arm64/ContentView~partial.swiftmodule"
+  },
+  "/Users/bcahill/Desktop/DocProj/DocProj/DocProjApp.swift" : {
+    "const-values" : "/Users/bcahill/Desktop/DocProj/DerivedData/Build/Intermediates.noindex/DocProj.build/Debug-iphoneos/DocProj.build/Objects-normal/arm64/DocProjApp.swiftconstvalues",
+    "dependencies" : "/Users/bcahill/Desktop/DocProj/DerivedData/Build/Intermediates.noindex/DocProj.build/Debug-iphoneos/DocProj.build/Objects-normal/arm64/DocProjApp.d",
+    "diagnostics" : "/Users/bcahill/Desktop/DocProj/DerivedData/Build/Intermediates.noindex/DocProj.build/Debug-iphoneos/DocProj.build/Objects-normal/arm64/DocProjApp.dia",
+    "index-unit-output-path" : "/DocProj.build/Debug-iphoneos/DocProj.build/Objects-normal/arm64/DocProjApp.o",
+    "llvm-bc" : "/Users/bcahill/Desktop/DocProj/DerivedData/Build/Intermediates.noindex/DocProj.build/Debug-iphoneos/DocProj.build/Objects-normal/arm64/DocProjApp.bc",
+    "object" : "/Users/bcahill/Desktop/DocProj/DerivedData/Build/Intermediates.noindex/DocProj.build/Debug-iphoneos/DocProj.build/Objects-normal/arm64/DocProjApp.o",
+    "swift-dependencies" : "/Users/bcahill/Desktop/DocProj/DerivedData/Build/Intermediates.noindex/DocProj.build/Debug-iphoneos/DocProj.build/Objects-normal/arm64/DocProjApp.swiftdeps",
+    "swiftmodule" : "/Users/bcahill/Desktop/DocProj/DerivedData/Build/Intermediates.noindex/DocProj.build/Debug-iphoneos/DocProj.build/Objects-normal/arm64/DocProjApp~partial.swiftmodule"
+  }
+}
