@@ -69,7 +69,7 @@ jobs:
               --hosting-base-path $repoName \
               --output-path doccDocs;
   
-            echo "<script>window.location.href += \"/documentation/$schemeName\"</script>" > $schemeName/index.html
+            # echo "<script>window.location.href += \"/documentation/$schemeName\"</script>" > $schemeName/index.html
 
           done
 
