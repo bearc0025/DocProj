@@ -38,24 +38,40 @@ jobs:
 
       - name: Build DocC
         run: |
-          schemeName="DocProj"
-          xcodebuild clean docbuild -scheme $schemeName \
-            -derivedDataPath /tmp/docbuild \
-            -destination 'generic/platform=iOS Simulator' \
-            -skipPackagePluginValidation \
-            -allowProvisioningUpdates;
-
-          doccarchive_path=$(find /tmp/docbuild -name "*.doccarchive" | head -n 1)
-
-          echo "Found doccarchive at $doccarchive_path"
-
-          xcrun docc process-archive transform-for-static-hosting \
-            $doccarchive_path \
-            --hosting-base-path $schemeName \
-            --output-path doccDocs;
-
-          echo "<script>window.location.href += \"/documentation/docproj\"</script>" > $schemeName/index.html
-
+          set -euo pipefail
+          
+          projectName="DocsU"
+          repoName="DocProj"
+          
+          # List schemes and parse the output to get only the scheme names
+          schemes=$(
+            xcodebuild -list -project "$projectName.xcodeproj" | \
+              awk '/Schemes:/{flag=1; next} /$/ {if(flag && $0 !~ /^(\s)*$/){print $1}else if(flag){exit}}'
+          )
+          
+          for scheme in $schemes; do
+            echo "Building DocC documentation for scheme: $scheme"
+          
+            xcodebuild clean docbuild -project "$projectName.xcodeproj" \
+              -scheme "$scheme" \
+              -derivedDataPath "/tmp/docbuild-$scheme" \
+              -destination 'generic/platform=iOS Simulator' \
+              -skipPackagePluginValidation \
+              -allowProvisioningUpdates
+          
+            doccarchive_path=$(find "/tmp/docbuild-$scheme" -name "*.doccarchive" | head -n 1)
+          
+            echo "Found doccarchive at $doccarchive_path"
+          
+            xcrun docc process-archive transform-for-static-hosting \
+              "$doccarchive_path" \
+              --hosting-base-path "$repoName/$scheme" \
+              --output-path "doccDocs/$scheme"
+          
+            # (Optional) Write redirect page inside the correct artifact folder
+            echo "<script>window.location.href += \"/documentation/$scheme\"</script>" > "$scheme/index.html"
+          done
+          
       - name: Prep pages
         uses: actions/configure-pages@v5
     
