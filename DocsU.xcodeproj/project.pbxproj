@@ -8,7 +8,7 @@
 
 /* Begin PBXFileReference section */
 		960E7E122E27F34D00AA7C13 /* Another Proj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Another Proj.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		96C13AFF2E26C2F900EB84AC /* DocProj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DocProj.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96C13AFF2E26C2F900EB84AC /* DocProjForDocc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DocProjForDocc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -48,7 +48,7 @@
 		96C13B002E26C2F900EB84AC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				96C13AFF2E26C2F900EB84AC /* DocProj.app */,
+				96C13AFF2E26C2F900EB84AC /* DocProjForDocc.app */,
 				960E7E122E27F34D00AA7C13 /* Another Proj.app */,
 			);
 			name = Products;
@@ -76,9 +76,9 @@
 			productReference = 960E7E122E27F34D00AA7C13 /* Another Proj.app */;
 			productType = "com.apple.product-type.application";
 		};
-		96C13AFE2E26C2F900EB84AC /* DocProj */ = {
+		96C13AFE2E26C2F900EB84AC /* DocProjForDocc */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 96C13B202E26C2FA00EB84AC /* Build configuration list for PBXNativeTarget "DocProj" */;
+			buildConfigurationList = 96C13B202E26C2FA00EB84AC /* Build configuration list for PBXNativeTarget "DocProjForDocc" */;
 			buildPhases = (
 				96C13AFB2E26C2F900EB84AC /* Sources */,
 				96C13AFC2E26C2F900EB84AC /* Frameworks */,
@@ -91,11 +91,11 @@
 			fileSystemSynchronizedGroups = (
 				96C13B012E26C2F900EB84AC /* DocProjForDocc */,
 			);
-			name = DocProj;
+			name = DocProjForDocc;
 			packageProductDependencies = (
 			);
 			productName = DocProj;
-			productReference = 96C13AFF2E26C2F900EB84AC /* DocProj.app */;
+			productReference = 96C13AFF2E26C2F900EB84AC /* DocProjForDocc.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -130,7 +130,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				96C13AFE2E26C2F900EB84AC /* DocProj */,
+				96C13AFE2E26C2F900EB84AC /* DocProjForDocc */,
 				960E7E112E27F34D00AA7C13 /* Another Proj */,
 			);
 		};
@@ -427,7 +427,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		96C13B202E26C2FA00EB84AC /* Build configuration list for PBXNativeTarget "DocProj" */ = {
+		96C13B202E26C2FA00EB84AC /* Build configuration list for PBXNativeTarget "DocProjForDocc" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				96C13B212E26C2FA00EB84AC /* Debug */,
