@@ -6,6 +6,17 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		962B563A2E2942E0008096B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 962B56352E2942E0008096B6 /* Assets.xcassets */; };
+		962B563B2E2942E0008096B6 /* DocProjApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962B56372E2942E0008096B6 /* DocProjApp.swift */; };
+		962B563C2E2942E0008096B6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962B56362E2942E0008096B6 /* ContentView.swift */; };
+		962B563D2E2942E0008096B6 /* Docs.docc in Sources */ = {isa = PBXBuildFile; fileRef = 962B56382E2942E0008096B6 /* Docs.docc */; };
+		962B563E2E2942E0008096B6 /* DocProjApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962B56372E2942E0008096B6 /* DocProjApp.swift */; };
+		962B563F2E2942E0008096B6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962B56362E2942E0008096B6 /* ContentView.swift */; };
+		962B56402E2942E0008096B6 /* Docs.docc in Sources */ = {isa = PBXBuildFile; fileRef = 962B56382E2942E0008096B6 /* Docs.docc */; };
+		962B56412E2942E0008096B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 962B56352E2942E0008096B6 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		96C13B0D2E26C2FA00EB84AC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,17 +35,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		96C13AFF2E26C2F900EB84AC /* DocProj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DocProj.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		962B56352E2942E0008096B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		962B56362E2942E0008096B6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		962B56372E2942E0008096B6 /* DocProjApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocProjApp.swift; sourceTree = "<group>"; };
+		962B56382E2942E0008096B6 /* Docs.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Docs.docc; sourceTree = "<group>"; };
+		96C13AFF2E26C2F900EB84AC /* DocProjForDocc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DocProjForDocc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96C13B0C2E26C2FA00EB84AC /* DocProjTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DocProjTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96C13B162E26C2FA00EB84AC /* DocProjUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DocProjUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		96C13B012E26C2F900EB84AC /* DocProj */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = DocProj;
-			sourceTree = "<group>";
-		};
 		96C13B0F2E26C2FA00EB84AC /* DocProjTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = DocProjTests;
@@ -72,10 +82,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		962B56392E2942E0008096B6 /* DocProjForDocc */ = {
+			isa = PBXGroup;
+			children = (
+				962B56352E2942E0008096B6 /* Assets.xcassets */,
+				962B56362E2942E0008096B6 /* ContentView.swift */,
+				962B56372E2942E0008096B6 /* DocProjApp.swift */,
+				962B56382E2942E0008096B6 /* Docs.docc */,
+			);
+			path = DocProjForDocc;
+			sourceTree = "<group>";
+		};
 		96C13AF62E26C2F900EB84AC = {
 			isa = PBXGroup;
 			children = (
-				96C13B012E26C2F900EB84AC /* DocProj */,
+				962B56392E2942E0008096B6 /* DocProjForDocc */,
 				96C13B0F2E26C2FA00EB84AC /* DocProjTests */,
 				96C13B192E26C2FA00EB84AC /* DocProjUITests */,
 				96C13B002E26C2F900EB84AC /* Products */,
@@ -85,7 +106,7 @@
 		96C13B002E26C2F900EB84AC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				96C13AFF2E26C2F900EB84AC /* DocProj.app */,
+				96C13AFF2E26C2F900EB84AC /* DocProjForDocc.app */,
 				96C13B0C2E26C2FA00EB84AC /* DocProjTests.xctest */,
 				96C13B162E26C2FA00EB84AC /* DocProjUITests.xctest */,
 			);
@@ -95,9 +116,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		96C13AFE2E26C2F900EB84AC /* DocProj */ = {
+		96C13AFE2E26C2F900EB84AC /* DocProjForDocc */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 96C13B202E26C2FA00EB84AC /* Build configuration list for PBXNativeTarget "DocProj" */;
+			buildConfigurationList = 96C13B202E26C2FA00EB84AC /* Build configuration list for PBXNativeTarget "DocProjForDocc" */;
 			buildPhases = (
 				96C13AFB2E26C2F900EB84AC /* Sources */,
 				96C13AFC2E26C2F900EB84AC /* Frameworks */,
@@ -107,14 +128,11 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				96C13B012E26C2F900EB84AC /* DocProj */,
-			);
-			name = DocProj;
+			name = DocProjForDocc;
 			packageProductDependencies = (
 			);
 			productName = DocProj;
-			productReference = 96C13AFF2E26C2F900EB84AC /* DocProj.app */;
+			productReference = 96C13AFF2E26C2F900EB84AC /* DocProjForDocc.app */;
 			productType = "com.apple.product-type.application";
 		};
 		96C13B0B2E26C2FA00EB84AC /* DocProjTests */ = {
@@ -200,7 +218,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				96C13AFE2E26C2F900EB84AC /* DocProj */,
+				96C13AFE2E26C2F900EB84AC /* DocProjForDocc */,
 				96C13B0B2E26C2FA00EB84AC /* DocProjTests */,
 				96C13B152E26C2FA00EB84AC /* DocProjUITests */,
 			);
@@ -212,6 +230,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				962B563A2E2942E0008096B6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				962B56412E2942E0008096B6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +256,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				962B563B2E2942E0008096B6 /* DocProjApp.swift in Sources */,
+				962B563C2E2942E0008096B6 /* ContentView.swift in Sources */,
+				962B563D2E2942E0008096B6 /* Docs.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +266,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				962B563E2E2942E0008096B6 /* DocProjApp.swift in Sources */,
+				962B563F2E2942E0008096B6 /* ContentView.swift in Sources */,
+				962B56402E2942E0008096B6 /* Docs.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,12 +284,12 @@
 /* Begin PBXTargetDependency section */
 		96C13B0E2E26C2FA00EB84AC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 96C13AFE2E26C2F900EB84AC /* DocProj */;
+			target = 96C13AFE2E26C2F900EB84AC /* DocProjForDocc */;
 			targetProxy = 96C13B0D2E26C2FA00EB84AC /* PBXContainerItemProxy */;
 		};
 		96C13B182E26C2FA00EB84AC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 96C13AFE2E26C2F900EB84AC /* DocProj */;
+			target = 96C13AFE2E26C2F900EB84AC /* DocProjForDocc */;
 			targetProxy = 96C13B172E26C2FA00EB84AC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -530,7 +556,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		96C13B202E26C2FA00EB84AC /* Build configuration list for PBXNativeTarget "DocProj" */ = {
+		96C13B202E26C2FA00EB84AC /* Build configuration list for PBXNativeTarget "DocProjForDocc" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				96C13B212E26C2FA00EB84AC /* Debug */,
