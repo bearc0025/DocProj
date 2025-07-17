@@ -69,7 +69,7 @@ jobs:
               --hosting-base-path $repoName/$scheme \
               --output-path doccDocs/$scheme;
 
-            scheme_lower=${scheme,,}
+            scheme_lower=$(echo "$scheme" | tr '[:upper:]' '[:lower:]')
             echo "<script>window.location.href += \"documentation/$scheme_lower/course\"</script>" > doccDocs/$scheme/index.html
 
           done
