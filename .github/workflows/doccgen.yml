@@ -69,21 +69,22 @@ jobs:
               --hosting-base-path $repoName \
               --output-path doccDocs;
   
-            # echo "<script>window.location.href += \"/documentation/$schemeName\"</script>" > $schemeName/index.html
+            echo "<script>window.location.href += \"/documentation/$schemeName/article1\"</script>" > $scheme/index.html
+
+            - name: Prep pages
+              uses: actions/configure-pages@v5
+          
+            - name: Upload artifact
+              uses: actions/upload-pages-artifact@v3
+              with:
+                # Upload docs directory
+                path: 'doccDocs'
+      
+            - name: Deploy to GitHub Pages
+              id: deployment
+              uses: actions/deploy-pages@v4
 
           done
 
-      - name: Prep pages
-        uses: actions/configure-pages@v5
-    
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          # Upload docs directory
-          path: 'doccDocs'
-
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
 
 
