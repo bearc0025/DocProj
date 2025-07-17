@@ -40,36 +40,50 @@ jobs:
         run: |
           schemeName="DocProjForDocc"
           repoName="DocProj"
-          projectName="DocProj.xcodeproj"
-          xcodebuild clean docbuild -project $projectName \
-            -scheme $schemeName \
-            -derivedDataPath /tmp/docbuild \
-            -destination 'generic/platform=iOS Simulator' \
-            -skipPackagePluginValidation \
-            -allowProvisioningUpdates;
+          projectName="DocProj"
 
-          doccarchive_path=$(find /tmp/docbuild -name "*.doccarchive" | head -n 1)
+          schemes=$(xcodebuild -list -project "$projectName.xcodeproj" | awk '
+            /^[[:space:]]*Schemes:/ {in_s=1; next}
+            in_s && /^[[:space:]]*$/ {exit}
+            in_s {gsub(/^[ \t]+|[ \t]+$/, "", $0); print $0}
+          ')
 
-          echo "Found doccarchive at $doccarchive_path"
+          for scheme in $schemes; do
+            echo "Building DocC documentation for scheme: $scheme"
+            # builddir="/tmp/docbuild-$scheme"
+          done
 
-          xcrun docc process-archive transform-for-static-hosting \
-            $doccarchive_path \
-            --hosting-base-path $repoName \
-            --output-path doccDocs;
+          # mkdir -p doccDocs
 
-          echo "<script>window.location.href += \"/documentation/$schemeName\"</script>" > $schemeName/index.html
+          # xcodebuild clean docbuild -project $projectName \
+          #   -scheme $schemeName \
+          #   -derivedDataPath /tmp/docbuild \
+          #   -destination 'generic/platform=iOS Simulator' \
+          #   -skipPackagePluginValidation \
+          #   -allowProvisioningUpdates;
 
-      - name: Prep pages
-        uses: actions/configure-pages@v5
+          # doccarchive_path=$(find /tmp/docbuild -name "*.doccarchive" | head -n 1)
+
+          # echo "Found doccarchive at $doccarchive_path"
+
+          # xcrun docc process-archive transform-for-static-hosting \
+          #   $doccarchive_path \
+          #   --hosting-base-path $repoName \
+          #   --output-path doccDocs;
+
+          # echo "<script>window.location.href += \"/documentation/$schemeName\"</script>" > $schemeName/index.html
+
+      # - name: Prep pages
+      #   uses: actions/configure-pages@v5
     
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          # Upload docs directory
-          path: 'doccDocs'
+      # - name: Upload artifact
+      #   uses: actions/upload-pages-artifact@v3
+      #   with:
+      #     # Upload docs directory
+      #     path: 'doccDocs'
 
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+      # - name: Deploy to GitHub Pages
+      #   id: deployment
+      #   uses: actions/deploy-pages@v4
 
 
