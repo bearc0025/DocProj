@@ -1,0 +1,9 @@
+"/Users/bcahill/Desktop/DocProjRepo/DocProj/DocProjForDocc/DocProjApp.swift":
+  swiftdoc: "/Users/bcahill/Desktop/DocProjRepo/DocProj/build/DocProj.build/Release-iphoneos/DocProjForDocc.build/Objects-normal/arm64/DocProjForDocc.swiftdoc"
+  const-values: "/Users/bcahill/Desktop/DocProjRepo/DocProj/build/DocProj.build/Release-iphoneos/DocProjForDocc.build/Objects-normal/arm64/DocProjForDocc-master.swiftconstvalues"
+  dependencies: "/Users/bcahill/Desktop/DocProjRepo/DocProj/build/DocProj.build/Release-iphoneos/DocProjForDocc.build/Objects-normal/arm64/DocProjForDocc-master.d"
+  objc-header: "/Users/bcahill/Desktop/DocProjRepo/DocProj/build/DocProj.build/Release-iphoneos/DocProjForDocc.build/Objects-normal/arm64/DocProjForDocc-Swift.h"
+  abi-baseline-json: "/Users/bcahill/Desktop/DocProjRepo/DocProj/build/DocProj.build/Release-iphoneos/DocProjForDocc.build/Objects-normal/arm64/DocProjForDocc.abi.json"
+  swiftmodule: "/Users/bcahill/Desktop/DocProjRepo/DocProj/build/DocProj.build/Release-iphoneos/DocProjForDocc.build/Objects-normal/arm64/DocProjForDocc.swiftmodule"
+  swiftsourceinfo: "/Users/bcahill/Desktop/DocProjRepo/DocProj/build/DocProj.build/Release-iphoneos/DocProjForDocc.build/Objects-normal/arm64/DocProjForDocc.swiftsourceinfo"
+  diagnostics: "/Users/bcahill/Desktop/DocProjRepo/DocProj/build/DocProj.build/Release-iphoneos/DocProjForDocc.build/Objects-normal/arm64/DocProjForDocc-master.dia"

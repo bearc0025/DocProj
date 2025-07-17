@@ -1,0 +1,2 @@
+Target dependency graph (1 target)
+Target 'SecondTarget' in project 'DocProj' (no dependencies)

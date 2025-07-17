@@ -1,0 +1,9 @@
+version: "Apple Swift version 6.1.2 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)"
+options: "430108b8dcff4a3c0b903870450a9bdcdd7cbc8d5b8a20a777ddc84b7f5db161"
+build_start_time: [1752769541, 132037000]
+build_end_time: [1752769544, 105542000]
+inputs:
+  "/Users/bcahill/Desktop/DocProjRepo/DocProj/DocProjForDocc/ContentView.swift": [1752764398, 149897525]
+  "/Users/bcahill/Desktop/DocProjRepo/DocProj/DocProjForDocc/DocProjApp.swift": [1752764398, 149975483]
+  ? "/Users/bcahill/Desktop/DocProjRepo/DocProj/build/DocProj.build/Release-iphoneos/DocProjForDocc.build/DerivedSources/GeneratedAssetSymbols.swift"
+  : [1752769538, 587960288]

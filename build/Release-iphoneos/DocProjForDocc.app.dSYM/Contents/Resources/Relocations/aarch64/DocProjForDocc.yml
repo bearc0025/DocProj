@@ -1,0 +1,31 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/bcahill/Desktop/DocProjRepo/DocProj/build/Release-iphoneos/DocProjForDocc.app/DocProjForDocc'
+relocations:
+  - { offset: 0x5A7DD, size: 0x8, addend: 0x0, symName: '_$s14DocProjForDocc0aB3AppV4bodyQrvgAA11ContentViewVycfU_', symObjAddr: 0x0, symBinAddr: 0x100004000, symSize: 0x4 }
+  - { offset: 0x5A882, size: 0x8, addend: 0x0, symName: '_$s14DocProjForDocc0aB3AppVAC7SwiftUI0E0AAWl', symObjAddr: 0x108, symBinAddr: 0x100004104, symSize: 0x40 }
+  - { offset: 0x5A896, size: 0x8, addend: 0x0, symName: '_$s14DocProjForDocc0aB3AppVMa', symObjAddr: 0x148, symBinAddr: 0x100004144, symSize: 0x10 }
+  - { offset: 0x5A8AA, size: 0x8, addend: 0x0, symName: '_$s14DocProjForDocc0aB3AppV7SwiftUI0E0AA4BodyAdEP_AD5ScenePWT', symObjAddr: 0x158, symBinAddr: 0x100004154, symSize: 0x10 }
+  - { offset: 0x5A8BE, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledName, symObjAddr: 0x168, symBinAddr: 0x100004164, symSize: 0x44 }
+  - { offset: 0x5A8D2, size: 0x8, addend: 0x0, symName: '_$s14DocProjForDocc11ContentViewVAC7SwiftUI0F0AAWl', symObjAddr: 0x1AC, symBinAddr: 0x1000041A8, symSize: 0x40 }
+  - { offset: 0x5A8E6, size: 0x8, addend: 0x0, symName: '_$s7SwiftUI11WindowGroupVy14DocProjForDocc11ContentViewVGACyxGAA5SceneAAWl', symObjAddr: 0x1EC, symBinAddr: 0x1000041E8, symSize: 0x48 }
+  - { offset: 0x5A8FA, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledNameAbstract, symObjAddr: 0x234, symBinAddr: 0x100004230, symSize: 0x48 }
+  - { offset: 0x5A90F, size: 0x8, addend: 0x0, symName: '_$s14DocProjForDocc0aB3AppV4bodyQrvgAA11ContentViewVycfU_', symObjAddr: 0x0, symBinAddr: 0x100004000, symSize: 0x4 }
+  - { offset: 0x5A95D, size: 0x8, addend: 0x0, symName: '_$s14DocProjForDocc0aB3AppV7SwiftUI0E0AadEP4body4BodyQzvgTW', symObjAddr: 0x4, symBinAddr: 0x100004004, symSize: 0xCC }
+  - { offset: 0x5A9CD, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0xD4, symBinAddr: 0x1000040D0, symSize: 0x34 }
+  - { offset: 0x5AAE3, size: 0x8, addend: 0x0, symName: '_$s14DocProjForDocc11ContentViewVMa', symObjAddr: 0x0, symBinAddr: 0x10000427C, symSize: 0x10 }
+  - { offset: 0x5AAF7, size: 0x8, addend: 0x0, symName: '_$s14DocProjForDocc11ContentViewV7SwiftUI0F0AA4BodyAdEP_AGWT', symObjAddr: 0x10, symBinAddr: 0x10000428C, symSize: 0x10 }
+  - { offset: 0x5ABB7, size: 0x8, addend: 0x0, symName: '_$s7SwiftUI17EnvironmentValuesV10imageScaleAA5ImageV0F0OvpACTkq', symObjAddr: 0x518, symBinAddr: 0x100004750, symSize: 0x7C }
+  - { offset: 0x5ABCF, size: 0x8, addend: 0x0, symName: '_$s7SwiftUI4TextV7StorageOWOy', symObjAddr: 0x5DC, symBinAddr: 0x100004814, symSize: 0x10 }
+  - { offset: 0x5ABE3, size: 0x8, addend: 0x0, symName: '_$s7SwiftUI4TextV7StorageOWOe', symObjAddr: 0x628, symBinAddr: 0x100004860, symSize: 0x10 }
+  - { offset: 0x5ABF7, size: 0x8, addend: 0x0, symName: '_$s7SwiftUI15ModifiedContentVyAA6VStackVyAA9TupleViewVyACyACyAA5ImageVAA30_EnvironmentKeyWritingModifierVyAI5ScaleOGGAA016_ForegroundStyleL0VyAA09TintShapeO0VGG_AA4TextVtGGAA14_PaddingLayoutVGACyxq_GAA0G0A2AA2_RzAA0gL0R_rlWl', symObjAddr: 0x63C, symBinAddr: 0x100004874, symSize: 0x70 }
+  - { offset: 0x5AC0B, size: 0x8, addend: 0x0, symName: '_$s7SwiftUI6VStackVyAA9TupleViewVyAA15ModifiedContentVyAGyAA5ImageVAA30_EnvironmentKeyWritingModifierVyAI5ScaleOGGAA016_ForegroundStyleL0VyAA09TintShapeO0VGG_AA4TextVtGGACyxGAA0E0AAWl', symObjAddr: 0x6F4, symBinAddr: 0x1000048E4, symSize: 0x48 }
+  - { offset: 0x5AD32, size: 0x8, addend: 0x0, symName: '_$s14DocProjForDocc11ContentViewV7SwiftUI0F0AadEP05_makeF04view6inputsAD01_F7OutputsVAD11_GraphValueVyxG_AD01_F6InputsVtFZTW', symObjAddr: 0x3B4, symBinAddr: 0x100004630, symSize: 0x4 }
+  - { offset: 0x5AD4E, size: 0x8, addend: 0x0, symName: '_$s14DocProjForDocc11ContentViewV7SwiftUI0F0AadEP05_makeF4List4view6inputsAD01_fJ7OutputsVAD11_GraphValueVyxG_AD01_fJ6InputsVtFZTW', symObjAddr: 0x3B8, symBinAddr: 0x100004634, symSize: 0x4 }
+  - { offset: 0x5AD6A, size: 0x8, addend: 0x0, symName: '_$s14DocProjForDocc11ContentViewV7SwiftUI0F0AadEP14_viewListCount6inputsSiSgAD01_fjK6InputsV_tFZTW', symObjAddr: 0x3BC, symBinAddr: 0x100004638, symSize: 0x18 }
+  - { offset: 0x5AEA9, size: 0x8, addend: 0x0, symName: '_$s14DocProjForDocc11ContentViewV4bodyQrvg7SwiftUI05TupleF0VyAE0F0PAEE15foregroundStyleyQrqd__AE05ShapeL0Rd__lFQOyAiEE10imageScaleyQrAE5ImageV0O0OFQOyAN_Qo__AE04TintmL0VQo__AE4TextVtGyXEfU_', symObjAddr: 0x20, symBinAddr: 0x10000429C, symSize: 0x394 }
+  - { offset: 0x5AF92, size: 0x8, addend: 0x0, symName: '_$s14DocProjForDocc11ContentViewV7SwiftUI0F0AadEP4body4BodyQzvgTW', symObjAddr: 0x3D4, symBinAddr: 0x100004650, symSize: 0xE0 }
+  - { offset: 0x5B158, size: 0x8, addend: 0x0, symName: '_$s14DocProjForDocc19ResourceBundleClass33_1B26B38A68AB79EFFA09B886F03C9010LLCfD', symObjAddr: 0x0, symBinAddr: 0x10000492C, symSize: 0x10 }
+  - { offset: 0x5B19A, size: 0x8, addend: 0x0, symName: '_$s14DocProjForDocc19ResourceBundleClass33_1B26B38A68AB79EFFA09B886F03C9010LLCMa', symObjAddr: 0x10, symBinAddr: 0x10000493C, symSize: 0x20 }
+  - { offset: 0x5B1B5, size: 0x8, addend: 0x0, symName: '_$s14DocProjForDocc19ResourceBundleClass33_1B26B38A68AB79EFFA09B886F03C9010LLCfD', symObjAddr: 0x0, symBinAddr: 0x10000492C, symSize: 0x10 }
+...

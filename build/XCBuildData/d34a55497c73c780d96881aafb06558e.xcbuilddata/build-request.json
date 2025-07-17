@@ -1,0 +1,41 @@
+{
+  "buildCommand" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildAndRun"
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "d63e6a860bc64329a4ccde93af1a09ebf4b17620cdbf7ba8c2fdad092d4453e9"
+    }
+  ],
+  "containerPath" : "/Users/bcahill/Desktop/DocProjRepo/DocProj/DocProj.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "docbuild",
+    "overrides" : {
+      "commandLine" : {
+        "table" : {
+          "OTHER_DOCC_FLAGS" : "--transform-for-static-hosting --hosting-base-path docc"
+        }
+      },
+      "synthesized" : {
+        "table" : {
+          "ACTION" : "docbuild",
+          "COLOR_DIAGNOSTICS" : "YES",
+          "diagnostic_message_length" : "145",
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : false,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
