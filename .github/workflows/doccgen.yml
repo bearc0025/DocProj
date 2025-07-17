@@ -68,8 +68,9 @@ jobs:
               $doccarchive_path \
               --hosting-base-path $repoName/$scheme \
               --output-path doccDocs/$scheme;
-  
-            echo "<script>window.location.href += \"documentation/$scheme/course\"</script>" > doccDocs/$scheme/index.html
+
+            scheme_lower=${scheme,,}
+            echo "<script>window.location.href += \"documentation/$scheme_lower/course\"</script>" > doccDocs/$scheme/index.html
 
           done
 
