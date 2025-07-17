@@ -53,7 +53,7 @@ jobs:
             echo "Building DocC documentation for scheme: $scheme"
             builddir="/tmp/docbuild-$scheme"
 
-            xcodebuild clean docbuild -project $projectName \
+            xcodebuild clean docbuild -project "$projectName.xcodeproj" \
               -scheme $scheme \
               -derivedDataPath $builddir \
               -destination 'generic/platform=iOS Simulator' \
