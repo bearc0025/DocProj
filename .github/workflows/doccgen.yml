@@ -40,7 +40,7 @@ jobs:
         run: |
           set -euo pipefail
           
-          projectName="DocsU"
+          projectName="DocProj"
           repoName="DocProj"
           
           # List schemes and parse the output to get only the scheme names
