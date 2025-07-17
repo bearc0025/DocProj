@@ -66,10 +66,10 @@ jobs:
   
             xcrun docc process-archive transform-for-static-hosting \
               $doccarchive_path \
-              --hosting-base-path $repoName \
+              --hosting-base-path $repoName/$scheme \
               --output-path doccDocs/$scheme;
   
-            echo "<script>window.location.href += \"$scheme/documentation/$scheme\"</script>" > $scheme/index.html
+            echo "<script>window.location.href += \"$scheme/documentation/$scheme\"</script>" > /doccDocs/$scheme/index.html
 
           done
 
